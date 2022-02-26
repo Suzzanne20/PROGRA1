@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\susan\Documents\UMG\SEM 3\Programación 1 Select CMakeLists.txt
