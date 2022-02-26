@@ -5,7 +5,7 @@
 #include <math.h>
 using namespace std;
 void menu();
-int suma(int, int );
+int resta(int, int );
 int result, num1, num2;
 const string msj="El resultado del calculo es: ";
 
@@ -17,7 +17,7 @@ int main ()
 	cout<<"\nIngrese el segundo numero:"<<endl;
 	cin>> num2;
 	cout<<" "<<endl;
-	suma(num1,num2);
+	resta(num1,num2);
 	cout<<msj<<result<<endl;
 	return 0;
 
@@ -26,13 +26,13 @@ int main ()
 void menu(){
 	cout<<"!!Bienvenido!!"<<endl;
 	cout<<"================="<<endl;	
-	cout<<" Calculo de Suma"<<endl;
+	cout<<" Calculo de Resta"<<endl;
 	cout<<"=================\n "<<endl;
 
 }
 
-int suma(int num1, int num2){
-	result=num1+num2;
+int resta(int num1, int num2){
+	result=num1-num2;
 	return result;	
 }
 
