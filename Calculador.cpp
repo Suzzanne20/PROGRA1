@@ -72,5 +72,13 @@ int main ()
 
     int mult(int num1, int num2){
         cout<<calc<<endl;
-        result=num1*num2;
-    return result;
+        result=num1*n
+        return result;
+    }
+    
+    int divi(int num1, int num2){
+        cout<<calc<<endl;
+        result=num1/num2;
+        return result;
+	}
+	    
