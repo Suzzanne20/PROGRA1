@@ -69,3 +69,8 @@ int main ()
         result=num1-num2;
         return result;
     }
+
+    int mult(int num1, int num2){
+        cout<<calc<<endl;
+        result=num1*num2;
+    return result;
